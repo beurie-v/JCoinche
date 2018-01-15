@@ -1,28 +1,12 @@
---- INSTALLATION ---
+# JCoinche
 
-Follow the instructions to make a full install of our PAM module.
+A Java implementation of the famous french card game: Coinche as part of the Java module in the third year at EPITECH.
 
-Make sure you have root access before trying the installation
+# Installation
 
-This rule will install the dependencies needed by the module.
-It will then compile the module.
-When the module is compiled, this rule will install it and configure it.
+run mvn clean install and then launch the jars.
 
-$> make install
+# Rules
 
+You can find all the rules of the Coinche game [here](https://www.belote.com/regles-et-variantes/regle-belote-coinche/)
 
-You can verify the installation is complete by running:
-
-$> make check
-
-
-
-If you want to uninstall our module from PAM run:
-
-$> make uninstall
-
-And you can use
-
-$> make check
-
-again to make sure the module is fully uninstalled.
